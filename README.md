@@ -38,7 +38,6 @@ The dataset is based on the **FaultSeg3D** dataset introduced in the paper:
 * Each `.dat` volume is sliced into 128 2D images.
 * Processed images are stored as `.png` files.
 
-Here are short, clear descriptions for the individual notebooks/scripts based on your workflow:
 
 ---
 
@@ -50,7 +49,6 @@ Each `.dat` file produces 128 `.png` slices:
 * Seismic slices are stored in `processed_seis/`
 * Fault slices are stored in `processed_fault/`
 
-This enables efficient training on 2D data using deep learning models like U-Net.
 
 ---
 
